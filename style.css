@@ -1,0 +1,46 @@
+:root {
+    --contact-box-left-pos: 50%;
+}
+
+.boring-blocks {
+    margin: 1% 10% 2%;
+    padding: 1px 10px 1px;
+}
+
+.big-text-centered-block {
+    font-size: 16px;
+    line-height: 1.6em;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts {
+    width: 500px;
+    margin: 0% 2%;
+    padding: 1px 10px 1px;
+}
+
+.contacts-and-photo {
+    width: 810px;
+    float: left;
+    padding: 5% 5% 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.code-style {
+    width: min-content;
+    font-weight: bold;
+    color: white;
+    background-color: cornflowerblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px 15px;
+}
