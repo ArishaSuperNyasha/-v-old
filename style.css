@@ -1,5 +1,6 @@
-:root {
-    --contact-box-left-pos: 50%;
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #dddddd;
 }
 
 .boring-blocks {
@@ -8,7 +9,7 @@
 }
 
 .big-text-centered-block {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6em;
     width: 900px;
     margin-left: auto;
@@ -29,10 +30,16 @@
 
 h1 {
     text-align: center;
+    font-family: Tahoma, sans-serif;
 }
 
 h2 {
     text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+
+h3 {
+    font-family: Tahoma, sans-serif;
 }
 
 .code-style {
@@ -43,4 +50,21 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     padding: 15px 20px 15px;
+    position: relative;
+    right: 12%;
+}
+
+nav {
+    width: max-content;
+    height: 78%;
+    font-size: 22px;
+    line-height: 1.6em;
+    padding: 20px;
+    position: fixed;
+    top: 10%;
+    left: 4%;
+}
+
+.white-color-bg {
+    background-color: rgb(255, 255, 255);
 }
