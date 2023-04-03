@@ -1,0 +1,86 @@
+:root {
+    --border-color1: rgb(196, 203, 216);
+}
+
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: rgb(205, 222, 255);
+    font-size: 18px; line-height: 1.6em; letter-spacing: 0.05em;
+}
+
+.boring-blocks {
+    margin: 1% 10% 2%;
+    padding: 1px 10px 1px;
+}
+
+.big-text-centered-block {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    position: relative; z-index: 2;
+}
+
+.contacts {
+    width: 500px;
+    padding: 40px 0px 0px 40px;
+    float: right;
+}
+
+.contacts-and-photo {
+    width: max-content;
+    float: left;
+    margin-top: 60px; margin-bottom: 60px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+h2 {
+    position: relative; top: 40px;
+}
+
+h3 {
+    font-family: Verdana, sans-serif;
+}
+
+.code-style {
+    width: min-content; background-color: cornflowerblue;
+    font-weight: bold; color: white;
+    padding: 15px 20px 15px; margin-right: 90px;
+    border-radius: 5px;
+}
+
+nav {
+    width: max-content;
+    font-size: 20px; line-height: 1.8em;
+    margin-top: 185px; padding: 40px 30px 100px 20px;
+    position: fixed; top: 0px; left: 0px; z-index: 3;
+    border-right: 4px solid var(--border-color1); border-top-right-radius: 50px; border-bottom-right-radius: 50px;
+}
+
+footer {
+    width: 100%;
+    padding-top: 15px; padding-bottom: 20px;
+    border-top: 4px solid var(--border-color1);
+    margin-left: auto; margin-right: auto;
+}
+
+header {
+    width: 100%;
+    padding: 15px 0px 15px;
+    border-bottom: 4px solid var(--border-color1);
+    margin-left: auto; margin-right: auto;
+}
+
+.white-color-bg {
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    color: cornflowerblue; text-decoration: none;
+}
