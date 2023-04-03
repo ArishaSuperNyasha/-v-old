@@ -1,6 +1,11 @@
+:root {
+    --border-color1: rgb(196, 203, 216);
+}
+
 body {
-    font-family: Verdana, Tahoma, sans-serif;
-    background-color: #dddddd;
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: rgb(205, 222, 255);
+    font-size: 18px; line-height: 1.6em; letter-spacing: 0.05em;
 }
 
 .boring-blocks {
@@ -9,11 +14,13 @@ body {
 }
 
 .big-text-centered-block {
-    font-size: 18px;
-    line-height: 1.6em;
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+}
+
+main {
+    position: relative; top: 70px; z-index: 3;
 }
 
 .contacts {
@@ -28,43 +35,50 @@ body {
     padding: 5% 5% 10%;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
-    font-family: Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 h2 {
-    text-align: center;
-    font-family: Tahoma, sans-serif;
+    position: relative; top: 40px;
 }
 
 h3 {
-    font-family: Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
 }
 
 .code-style {
-    width: min-content;
-    font-weight: bold;
-    color: white;
-    background-color: cornflowerblue;
-    margin-left: auto;
-    margin-right: auto;
+    width: min-content; background-color: cornflowerblue;
+    font-weight: bold; color: white;
     padding: 15px 20px 15px;
-    position: relative;
-    right: 12%;
+    border-radius: 5px;
 }
 
 nav {
     width: max-content;
-    height: 78%;
-    font-size: 22px;
-    line-height: 1.6em;
-    padding: 20px;
-    position: fixed;
-    top: 10%;
-    left: 4%;
+    font-size: 20px; line-height: 1.8em;
+    margin-top: 185px; padding: 40px 30px 100px 20px;
+    position: fixed; top: 0px; left: 0px; z-index: 0;
+    border-right: 4px solid var(--border-color1); border-top-right-radius: 50px; border-bottom-right-radius: 50px;
+}
+
+footer {
+    position: absolute; bottom: -947px; left: 0px; width: 100%;
+    padding-top: 10px;
+    border-top: 4px solid var(--border-color1);
+}
+
+header {
+    position: absolute; top: 0px; left: 0px; z-index: 1; width: 1855px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid var(--border-color1);
 }
 
 .white-color-bg {
     background-color: rgb(255, 255, 255);
+}
+
+a {
+    color: cornflowerblue; text-decoration: none;
 }
