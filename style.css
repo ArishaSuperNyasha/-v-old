@@ -20,7 +20,7 @@ body {
 }
 
 main {
-    position: relative; top: 70px; z-index: 3;
+    position: relative; z-index: 3;
 }
 
 .contacts {
@@ -59,20 +59,22 @@ nav {
     width: max-content;
     font-size: 20px; line-height: 1.8em;
     margin-top: 185px; padding: 40px 30px 100px 20px;
-    position: fixed; top: 0px; left: 0px; z-index: 0;
+    position: fixed; top: 0px; left: 0px; z-index: -1;
     border-right: 4px solid var(--border-color1); border-top-right-radius: 50px; border-bottom-right-radius: 50px;
 }
 
 footer {
-    position: relative; bottom: -80px; left: -0.5%; width: 101%;
+    width: 100%;
     padding-top: 15px; padding-bottom: 20px;
     border-top: 4px solid var(--border-color1);
+    margin-left: auto; margin-right: auto;
 }
 
 header {
-    position: absolute; top: 0px; left: 0px; z-index: 1; width: 100%;
-    padding-bottom: 5px;
+    width: 100%;
+    padding: 15px 0px 15px;
     border-bottom: 4px solid var(--border-color1);
+    margin-left: auto; margin-right: auto;
 }
 
 .white-color-bg {
