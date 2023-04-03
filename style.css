@@ -20,7 +20,7 @@ body {
 }
 
 main {
-    position: relative; z-index: 3;
+    position: relative; z-index: 2;
 }
 
 .contacts {
@@ -59,7 +59,7 @@ nav {
     width: max-content;
     font-size: 20px; line-height: 1.8em;
     margin-top: 185px; padding: 40px 30px 100px 20px;
-    position: fixed; top: 0px; left: 0px; z-index: -1;
+    position: fixed; top: 0px; left: 0px; z-index: 3;
     border-right: 4px solid var(--border-color1); border-top-right-radius: 50px; border-bottom-right-radius: 50px;
 }
 
